@@ -18,6 +18,31 @@
 （fork于wangyi2005/v2ray修改前）
 
 环境变量： CONFIG_JSON（配置）、
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbound": {
+    "protocol": "vmess",
+    "port": 8080,
+    "settings": {
+      "clients": [
+        {
+          "id": "ddda8127-f4af-4ad2-9943-b8e822c5a878",
+          "alterId": 64,
+          "security": "none"
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws"
+    }
+  },
+  "inboundDetour": [],
+  "outbound": {
+    "protocol": "freedom",
+   "settings": {}
+  }
 
 
 用notepad++将上述变量中 \r\n 替换为\\n，变成一行，导入容器。
