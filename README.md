@@ -28,7 +28,7 @@
     "settings": {
       "clients": [
         {
-          "id": "ddda8127-f4af-4ad2-9943-b8e822c5a878",
+          "id": "YOUR UUID",
           "alterId": 64,
           "security": "aes-128-gcm"
         }
