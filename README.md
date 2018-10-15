@@ -30,7 +30,7 @@
         {
           "id": "ddda8127-f4af-4ad2-9943-b8e822c5a878",
           "alterId": 64,
-          "security": "none"
+          "security": "aes-128-gcm"
         }
       ]
     },
